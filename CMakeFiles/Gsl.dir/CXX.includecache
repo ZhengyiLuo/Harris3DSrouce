@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zen/Google Drive/Spring 2017/CIS 099/Harris3DSrouce/Gsl.cpp
+cstdlib
+-
+iostream
+-
+fstream
+-
+string
+-
+map
+-
+cmath
+-
+Gsl.h
+/Users/zen/Google Drive/Spring 2017/CIS 099/Harris3DSrouce/Gsl.h
+gsl/gsl_sf_bessel.h
+-
+
+/Users/zen/Google Drive/Spring 2017/CIS 099/Harris3DSrouce/Gsl.h
+
+/opt/local/include/gsl/gsl_inline.h
+
+/opt/local/include/gsl/gsl_mode.h
+gsl/gsl_inline.h
+-
+
+/opt/local/include/gsl/gsl_precision.h
+gsl/gsl_types.h
+-
+
+/opt/local/include/gsl/gsl_sf_bessel.h
+stdlib.h
+-
+gsl/gsl_mode.h
+-
+gsl/gsl_precision.h
+-
+gsl/gsl_sf_result.h
+-
+
+/opt/local/include/gsl/gsl_sf_result.h
+
+/opt/local/include/gsl/gsl_types.h
+

@@ -1,0 +1,13 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/zen/Google Drive/Spring 2017/CIS 099/Harris3DSrouce"
+-- Build type: Debug
+-- USING CXXFLAGS = '-pipe -Os -stdlib=libc++ -std=c++11 -g'
+-- USING EXEFLAGS = '-L/opt/local/lib -Wl,-headerpad_max_install_names '
+-- Targetting Unix Makefiles
+-- Using /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ compiler.
+-- DARWIN_VERSION=16
+-- Mac Leopard detected
+-- Requested component: MPFR
+-- Requested component: GMP
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/zen/Google Drive/Spring 2017/CIS 099/Harris3DSrouce
