@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\d8c27f47afd464aff5402778e71ba379\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FAEC988D-703C-3867-882C-3747997B3215}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

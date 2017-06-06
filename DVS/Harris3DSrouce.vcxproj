@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{7E0A5687-9028-3433-99AA-FB6275CAB71A}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Harris3DSrouce</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Zen\Independent Study\Harris3DSrouce\DVS\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Harris3DSrouce.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Harris3DSrouce</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Zen\Independent Study\Harris3DSrouce\DVS\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Harris3DSrouce.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Harris3DSrouce</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Zen\Independent Study\Harris3DSrouce\DVS\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Harris3DSrouce.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Harris3DSrouce</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Zen\Independent Study\Harris3DSrouce\DVS\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Harris3DSrouce.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Harris3DSrouce</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj -std=c++11</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Zen\Independent Study\Harris3DSrouce\..\..\include;C:\dev\CGAL-4.9\auxiliary\gmp\include;D:\Zen\Independent Study\Harris3DSrouce\DVS;C:\dev\CGAL-4.9\build\include;C:\dev\CGAL-4.9\include;C:\dev\boost_1_64_0;C:\gsl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Zen\Independent Study\Harris3DSrouce\..\..\include;C:\dev\CGAL-4.9\auxiliary\gmp\include;D:\Zen\Independent Study\Harris3DSrouce\DVS;C:\dev\CGAL-4.9\build\include;C:\dev\CGAL-4.9\include;C:\dev\boost_1_64_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Zen\Independent Study\Harris3DSrouce\..\..\include;C:\dev\CGAL-4.9\auxiliary\gmp\include;D:\Zen\Independent Study\Harris3DSrouce\DVS;C:\dev\CGAL-4.9\build\include;C:\dev\CGAL-4.9\include;C:\dev\boost_1_64_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\dev\CGAL-4.9\auxiliary\gmp\lib\libmpfr-4.lib;C:\dev\CGAL-4.9\auxiliary\gmp\lib\libgmp-10.lib;cblas.lib;gsl.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/dev/CGAL-4.9/build/lib;C:/dev/CGAL-4.9/build/lib/$(Configuration);C:/dev/boost_1_64_0/lib32-msvc-12.0;C:/dev/boost_1_64_0/lib32-msvc-12.0/$(Configuration);C:\gsl\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Zen/Independent Study/Harris3DSrouce/DVS/Debug/Harris3DSrouce.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Zen/Independent Study/Harris3DSrouce/DVS/Debug/Harris3DSrouce.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj -std=c++11</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Zen\Independent Study\Harris3DSrouce\..\..\include;C:\dev\CGAL-4.9\auxiliary\gmp\include;D:\Zen\Independent Study\Harris3DSrouce\DVS;C:\dev\CGAL-4.9\build\include;C:\dev\CGAL-4.9\include;C:\dev\boost_1_64_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Zen\Independent Study\Harris3DSrouce\..\..\include;C:\dev\CGAL-4.9\auxiliary\gmp\include;D:\Zen\Independent Study\Harris3DSrouce\DVS;C:\dev\CGAL-4.9\build\include;C:\dev\CGAL-4.9\include;C:\dev\boost_1_64_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Zen\Independent Study\Harris3DSrouce\..\..\include;C:\dev\CGAL-4.9\auxiliary\gmp\include;D:\Zen\Independent Study\Harris3DSrouce\DVS;C:\dev\CGAL-4.9\build\include;C:\dev\CGAL-4.9\include;C:\dev\boost_1_64_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\dev\CGAL-4.9\auxiliary\gmp\lib\libmpfr-4.lib;C:\dev\CGAL-4.9\auxiliary\gmp\lib\libgmp-10.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/dev/CGAL-4.9/build/lib;C:/dev/CGAL-4.9/build/lib/$(Configuration);C:/dev/boost_1_64_0/lib32-msvc-12.0;C:/dev/boost_1_64_0/lib32-msvc-12.0/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Zen/Independent Study/Harris3DSrouce/DVS/Release/Harris3DSrouce.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Zen/Independent Study/Harris3DSrouce/DVS/Release/Harris3DSrouce.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj -std=c++11</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Zen\Independent Study\Harris3DSrouce\..\..\include;C:\dev\CGAL-4.9\auxiliary\gmp\include;D:\Zen\Independent Study\Harris3DSrouce\DVS;C:\dev\CGAL-4.9\build\include;C:\dev\CGAL-4.9\include;C:\dev\boost_1_64_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Zen\Independent Study\Harris3DSrouce\..\..\include;C:\dev\CGAL-4.9\auxiliary\gmp\include;D:\Zen\Independent Study\Harris3DSrouce\DVS;C:\dev\CGAL-4.9\build\include;C:\dev\CGAL-4.9\include;C:\dev\boost_1_64_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Zen\Independent Study\Harris3DSrouce\..\..\include;C:\dev\CGAL-4.9\auxiliary\gmp\include;D:\Zen\Independent Study\Harris3DSrouce\DVS;C:\dev\CGAL-4.9\build\include;C:\dev\CGAL-4.9\include;C:\dev\boost_1_64_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\dev\CGAL-4.9\auxiliary\gmp\lib\libmpfr-4.lib;C:\dev\CGAL-4.9\auxiliary\gmp\lib\libgmp-10.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/dev/CGAL-4.9/build/lib;C:/dev/CGAL-4.9/build/lib/$(Configuration);C:/dev/boost_1_64_0/lib32-msvc-12.0;C:/dev/boost_1_64_0/lib32-msvc-12.0/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Zen/Independent Study/Harris3DSrouce/DVS/MinSizeRel/Harris3DSrouce.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Zen/Independent Study/Harris3DSrouce/DVS/MinSizeRel/Harris3DSrouce.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj -std=c++11</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Zen\Independent Study\Harris3DSrouce\..\..\include;C:\dev\CGAL-4.9\auxiliary\gmp\include;D:\Zen\Independent Study\Harris3DSrouce\DVS;C:\dev\CGAL-4.9\build\include;C:\dev\CGAL-4.9\include;C:\dev\boost_1_64_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Zen\Independent Study\Harris3DSrouce\..\..\include;C:\dev\CGAL-4.9\auxiliary\gmp\include;D:\Zen\Independent Study\Harris3DSrouce\DVS;C:\dev\CGAL-4.9\build\include;C:\dev\CGAL-4.9\include;C:\dev\boost_1_64_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Zen\Independent Study\Harris3DSrouce\..\..\include;C:\dev\CGAL-4.9\auxiliary\gmp\include;D:\Zen\Independent Study\Harris3DSrouce\DVS;C:\dev\CGAL-4.9\build\include;C:\dev\CGAL-4.9\include;C:\dev\boost_1_64_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\dev\CGAL-4.9\auxiliary\gmp\lib\libmpfr-4.lib;C:\dev\CGAL-4.9\auxiliary\gmp\lib\libgmp-10.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/dev/CGAL-4.9/build/lib;C:/dev/CGAL-4.9/build/lib/$(Configuration);C:/dev/boost_1_64_0/lib32-msvc-12.0;C:/dev/boost_1_64_0/lib32-msvc-12.0/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Zen/Independent Study/Harris3DSrouce/DVS/RelWithDebInfo/Harris3DSrouce.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Zen/Independent Study/Harris3DSrouce/DVS/RelWithDebInfo/Harris3DSrouce.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Zen\Independent Study\Harris3DSrouce\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Zen/Independent Study/Harris3DSrouce/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HD:/Zen/Independent Study/Harris3DSrouce" "-BD:/Zen/Independent Study/Harris3DSrouce/DVS" --check-stamp-file "D:/Zen/Independent Study/Harris3DSrouce/DVS/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Zen/Independent Study/Harris3DSrouce/CMakeLists.txt;D:\Zen\Independent Study\Harris3DSrouce\CMakeLists.txt;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeCCompiler.cmake;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\dev\CGAL-4.9\build\CGALConfig.cmake;C:\dev\CGAL-4.9\build\CGALExports.cmake;C:\dev\CGAL-4.9\build\CGALLibConfig.cmake;C:\dev\CGAL-4.9\build\CGAL_CoreLibConfig.cmake;C:\dev\CGAL-4.9\build\CGAL_ImageIOLibConfig.cmake;C:\dev\CGAL-4.9\cmake\modules\UseCGAL.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_Macros.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_VersionUtils.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_Common.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_Macros.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_SetupVLD.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_SetupFlags.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_GeneratorSpecificSettings.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_TweakFindBoost.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_CreateSingleSourceCGALProgram.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindGSL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;D:\Zen\Independent Study\Harris3DSrouce\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Zen/Independent Study/Harris3DSrouce/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HD:/Zen/Independent Study/Harris3DSrouce" "-BD:/Zen/Independent Study/Harris3DSrouce/DVS" --check-stamp-file "D:/Zen/Independent Study/Harris3DSrouce/DVS/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Zen/Independent Study/Harris3DSrouce/CMakeLists.txt;D:\Zen\Independent Study\Harris3DSrouce\CMakeLists.txt;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeCCompiler.cmake;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\dev\CGAL-4.9\build\CGALConfig.cmake;C:\dev\CGAL-4.9\build\CGALExports.cmake;C:\dev\CGAL-4.9\build\CGALLibConfig.cmake;C:\dev\CGAL-4.9\build\CGAL_CoreLibConfig.cmake;C:\dev\CGAL-4.9\build\CGAL_ImageIOLibConfig.cmake;C:\dev\CGAL-4.9\cmake\modules\UseCGAL.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_Macros.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_VersionUtils.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_Common.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_Macros.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_SetupVLD.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_SetupFlags.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_GeneratorSpecificSettings.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_TweakFindBoost.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_CreateSingleSourceCGALProgram.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindGSL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;D:\Zen\Independent Study\Harris3DSrouce\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Zen/Independent Study/Harris3DSrouce/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HD:/Zen/Independent Study/Harris3DSrouce" "-BD:/Zen/Independent Study/Harris3DSrouce/DVS" --check-stamp-file "D:/Zen/Independent Study/Harris3DSrouce/DVS/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Zen/Independent Study/Harris3DSrouce/CMakeLists.txt;D:\Zen\Independent Study\Harris3DSrouce\CMakeLists.txt;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeCCompiler.cmake;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\dev\CGAL-4.9\build\CGALConfig.cmake;C:\dev\CGAL-4.9\build\CGALExports.cmake;C:\dev\CGAL-4.9\build\CGALLibConfig.cmake;C:\dev\CGAL-4.9\build\CGAL_CoreLibConfig.cmake;C:\dev\CGAL-4.9\build\CGAL_ImageIOLibConfig.cmake;C:\dev\CGAL-4.9\cmake\modules\UseCGAL.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_Macros.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_VersionUtils.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_Common.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_Macros.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_SetupVLD.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_SetupFlags.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_GeneratorSpecificSettings.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_TweakFindBoost.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_CreateSingleSourceCGALProgram.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindGSL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;D:\Zen\Independent Study\Harris3DSrouce\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Zen/Independent Study/Harris3DSrouce/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HD:/Zen/Independent Study/Harris3DSrouce" "-BD:/Zen/Independent Study/Harris3DSrouce/DVS" --check-stamp-file "D:/Zen/Independent Study/Harris3DSrouce/DVS/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Zen/Independent Study/Harris3DSrouce/CMakeLists.txt;D:\Zen\Independent Study\Harris3DSrouce\CMakeLists.txt;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeCCompiler.cmake;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\3.8.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\dev\CGAL-4.9\build\CGALConfig.cmake;C:\dev\CGAL-4.9\build\CGALExports.cmake;C:\dev\CGAL-4.9\build\CGALLibConfig.cmake;C:\dev\CGAL-4.9\build\CGAL_CoreLibConfig.cmake;C:\dev\CGAL-4.9\build\CGAL_ImageIOLibConfig.cmake;C:\dev\CGAL-4.9\cmake\modules\UseCGAL.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_Macros.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_VersionUtils.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_Common.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_Macros.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_SetupVLD.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_SetupFlags.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_GeneratorSpecificSettings.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_TweakFindBoost.cmake;C:\dev\CGAL-4.9\cmake\modules\CGAL_CreateSingleSourceCGALProgram.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindGSL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;D:\Zen\Independent Study\Harris3DSrouce\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Zen\Independent Study\Harris3DSrouce\DVS\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Zen\Independent Study\Harris3DSrouce\Clock.h" />
+    <ClInclude Include="D:\Zen\Independent Study\Harris3DSrouce\Distance.h" />
+    <ClInclude Include="D:\Zen\Independent Study\Harris3DSrouce\Face.h" />
+    <ClInclude Include="D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.h" />
+    <ClInclude Include="D:\Zen\Independent Study\Harris3DSrouce\Mesh.h" />
+    <ClInclude Include="D:\Zen\Independent Study\Harris3DSrouce\Properties.h" />
+    <ClInclude Include="D:\Zen\Independent Study\Harris3DSrouce\util.h" />
+    <ClInclude Include="D:\Zen\Independent Study\Harris3DSrouce\Vertex.h" />
+    <ClCompile Include="D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.cpp" />
+    <ClCompile Include="D:\Zen\Independent Study\Harris3DSrouce\main.cpp" />
+    <ClCompile Include="D:\Zen\Independent Study\Harris3DSrouce\Mesh.cpp" />
+    <ClCompile Include="D:\Zen\Independent Study\Harris3DSrouce\Properties.cpp" />
+    <ClCompile Include="D:\Zen\Independent Study\Harris3DSrouce\util.cpp" />
+    <ClCompile Include="D:\Zen\Independent Study\Harris3DSrouce\Vertex.cpp" />
+    <None Include="D:\Zen\Independent Study\Harris3DSrouce\example.prop" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Zen\Independent Study\Harris3DSrouce\DVS\ZERO_CHECK.vcxproj">
+      <Project>{8BF74237-79DB-37A6-A037-F1F7EC2971E1}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

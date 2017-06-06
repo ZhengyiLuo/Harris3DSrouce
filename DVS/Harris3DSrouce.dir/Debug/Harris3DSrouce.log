@@ -1,0 +1,31 @@
+﻿Build started 6/5/2017 10:52:50 PM.
+     1>Project "D:\Zen\Independent Study\Harris3DSrouce\DVS\Harris3DSrouce.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Zen\Independent Study\Harris3DSrouce\..\..\include" /I"C:\dev\CGAL-4.9\auxiliary\gmp\include" /I"D:\Zen\Independent Study\Harris3DSrouce\DVS" /I"C:\dev\CGAL-4.9\build\include" /I"C:\dev\CGAL-4.9\include" /IC:\dev\boost_1_64_0 /IC:\gsl\include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D CGAL_USE_MPFR /D CGAL_USE_GMP /D BOOST_ALL_DYN_LINK /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:strict /fp:except- /Zc:wchar_t /Zc:forScope /GR /Fo"Harris3DSrouce.dir\Debug\\" /Fd"Harris3DSrouce.dir\Debug\vc120.pdb" /Gd /TP /wd4503 /analyze- /errorReport:prompt   /bigobj -std=c++11 "D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.cpp"
+     1>cl : Command line warning D9002: ignoring unknown option '-std=c++11'
+         HarrisDetector.cpp
+     1>D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.cpp(196): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.cpp(214): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.cpp(225): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.cpp(237): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.cpp(290): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.cpp(304): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.cpp(316): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.cpp(381): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.cpp(406): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.cpp(412): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.cpp(415): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Zen\Independent Study\Harris3DSrouce\DVS\Debug\Harris3DSrouce.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:/dev/CGAL-4.9/build/lib" /LIBPATH:"C:/dev/CGAL-4.9/build/lib/Debug" /LIBPATH:"C:/dev/boost_1_64_0/lib32-msvc-12.0" /LIBPATH:"C:/dev/boost_1_64_0/lib32-msvc-12.0/Debug" /LIBPATH:C:\gsl\lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\dev\CGAL-4.9\auxiliary\gmp\lib\libmpfr-4.lib" "C:\dev\CGAL-4.9\auxiliary\gmp\lib\libgmp-10.lib" cblas.lib gsl.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Zen/Independent Study/Harris3DSrouce/DVS/Debug/Harris3DSrouce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Zen/Independent Study/Harris3DSrouce/DVS/Debug/Harris3DSrouce.lib" /MACHINE:X86 /SAFESEH   /machine:X86 Harris3DSrouce.dir\Debug\HarrisDetector.obj
+         Harris3DSrouce.dir\Debug\main.obj
+         Harris3DSrouce.dir\Debug\Mesh.obj
+         Harris3DSrouce.dir\Debug\Properties.obj
+         Harris3DSrouce.dir\Debug\util.obj
+         Harris3DSrouce.dir\Debug\Vertex.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Harris3DSrouce.vcxproj -> D:\Zen\Independent Study\Harris3DSrouce\DVS\Debug\Harris3DSrouce.exe
+     1>Done Building Project "D:\Zen\Independent Study\Harris3DSrouce\DVS\Harris3DSrouce.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.84

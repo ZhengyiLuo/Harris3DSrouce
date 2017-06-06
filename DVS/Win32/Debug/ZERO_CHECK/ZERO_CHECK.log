@@ -1,0 +1,28 @@
+﻿Build started 6/5/2017 10:45:10 PM.
+     1>Project "D:\Zen\Independent Study\Harris3DSrouce\DVS\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake is re-running because generate.stamp.list is missing.
+         -- ********************CGAL FOUND         **************************
+         -- *****************************************************************
+         -- *****************************************************************
+         -- Visual Leak Detector (VLD) is not found.
+         -- Build type: Release
+         -- USING CXXFLAGS = '/DWIN32 /D_WINDOWS /W3 /GR /EHsc -D_CRT_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_WARNINGS /fp:strict /fp:except- /wd4503 /bigobj -std=c++11 /MD /O2 /Ob2 /DNDEBUG'
+         -- USING EXEFLAGS = '/machine:X86 /INCREMENTAL:NO'
+         -- Targetting Visual Studio 12 2013
+         -- Target build enviroment supports auto-linking
+         -- Using VC12 compiler.
+         -- Generator uses intermediate configuration directory: $(Configuration)
+         -- Requested component: MPFR
+         -- Requested component: GMP
+         -- Could NOT find PkgConfig (missing:  PKG_CONFIG_EXECUTABLE) 
+         -- Could NOT find GSL (missing:  GSL_INCLUDE_DIR GSL_LIBRARY GSL_CBLAS_LIBRARY) 
+         -- Configuring done
+         -- Generating done
+         -- Build files have been written to: D:/Zen/Independent Study/Harris3DSrouce/DVS
+     1>Done Building Project "D:\Zen\Independent Study\Harris3DSrouce\DVS\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.66

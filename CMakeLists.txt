@@ -10,7 +10,9 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 find_package(CGAL QUIET)
 
 if ( CGAL_FOUND )
-
+    message(STATUS "********************CGAL FOUND         **************************")
+    message(STATUS "*****************************************************************")
+    message(STATUS "*****************************************************************")
 
     include( ${CGAL_USE_FILE} )
 
@@ -20,9 +22,9 @@ if ( CGAL_FOUND )
 
     # create a target per cppfile
     file(GLOB cppfiles RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
-    foreach(cppfile ${cppfiles})
-        create_single_source_cgal_program( "${cppfile}" )
-    endforeach()
+#     foreach(cppfile ${cppfiles})
+ #        create_single_source_cgal_program( "${cppfile}" )
+ #    endforeach()
 
 
 
@@ -67,6 +69,9 @@ add_executable(Harris3DSrouce ${SOURCE_FILES})
 find_package(GSL)
 
 if (GSL_FOUND)
+    message(STATUS "********************GSL FOUND         **************************")
+    message(STATUS "*****************************************************************")
+    message(STATUS "*****************************************************************")
     include_directories(${GSL_INCLUDE_DIRS} ${GSLCBLAS_INCLUDE_DIRS})
     target_link_libraries(Harris3DSrouce ${GSL_LIBRARIES} ${GSLCBLAS_LIBRARIES})
 

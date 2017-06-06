@@ -1,0 +1,10 @@
+﻿Build started 6/5/2017 10:48:11 PM.
+     1>Project "D:\Zen\Independent Study\Harris3DSrouce\DVS\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because D:/Zen/Independent Study/Harris3DSrouce/DVS/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "D:\Zen\Independent Study\Harris3DSrouce\DVS\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08

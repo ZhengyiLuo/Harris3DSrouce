@@ -23,6 +23,7 @@
 #include "Vertex.h"
 #include "Properties.h"
 
+
 class HarrisDetector{
 	private:
 		Mesh* object;

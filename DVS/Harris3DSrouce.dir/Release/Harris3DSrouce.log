@@ -1,0 +1,23 @@
+﻿Build started 6/5/2017 10:48:11 PM.
+     1>Project "D:\Zen\Independent Study\Harris3DSrouce\DVS\Harris3DSrouce.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/Zen/Independent Study/Harris3DSrouce/CMakeLists.txt
+         CMake does not need to re-run because D:/Zen/Independent Study/Harris3DSrouce/DVS/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Zen\Independent Study\Harris3DSrouce\..\..\include" /I"C:\dev\CGAL-4.9\auxiliary\gmp\include" /I"D:\Zen\Independent Study\Harris3DSrouce\DVS" /I"C:\dev\CGAL-4.9\build\include" /I"C:\dev\CGAL-4.9\include" /IC:\dev\boost_1_64_0 /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D CGAL_USE_MPFR /D CGAL_USE_GMP /D BOOST_ALL_DYN_LINK /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:strict /fp:except- /Zc:wchar_t /Zc:forScope /GR /Fo"Harris3DSrouce.dir\Release\\" /Fd"Harris3DSrouce.dir\Release\vc120.pdb" /Gd /TP /wd4503 /analyze- /errorReport:prompt   /bigobj -std=c++11 "D:\Zen\Independent Study\Harris3DSrouce\HarrisDetector.cpp" "D:\Zen\Independent Study\Harris3DSrouce\main.cpp" "D:\Zen\Independent Study\Harris3DSrouce\Mesh.cpp" "D:\Zen\Independent Study\Harris3DSrouce\Properties.cpp" "D:\Zen\Independent Study\Harris3DSrouce\util.cpp" "D:\Zen\Independent Study\Harris3DSrouce\Vertex.cpp"
+     1>cl : Command line warning D9002: ignoring unknown option '-std=c++11'
+         HarrisDetector.cpp
+     1>d:\zen\independent study\harris3dsrouce\HarrisDetector.h(9): fatal error C1083: Cannot open include file: 'gsl/gsl_linalg.h': No such file or directory
+         main.cpp
+     1>d:\zen\independent study\harris3dsrouce\HarrisDetector.h(9): fatal error C1083: Cannot open include file: 'gsl/gsl_linalg.h': No such file or directory
+         Mesh.cpp
+     1>D:\Zen\Independent Study\Harris3DSrouce\Mesh.cpp(12): fatal error C1083: Cannot open include file: 'gsl/gsl_linalg.h': No such file or directory
+         Properties.cpp
+         util.cpp
+         Vertex.cpp
+         Generating Code...
+     1>Done Building Project "D:\Zen\Independent Study\Harris3DSrouce\DVS\Harris3DSrouce.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.87
